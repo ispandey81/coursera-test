@@ -1,0 +1,36 @@
+h3 {
+    text-align: center;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+section {
+    height: 50%;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    border: 2px solid green;
+}
+
+body {
+    padding-top: 70px;
+}
+
+.divider {
+    color: black;
+}
+
+#dropdown {
+    text-align: center;
+    background-color: aquamarine;
+    padding: 0;
+}
+
+@media (max-width: 767px) {
+    /* #main-content {
+        padding-top: 200px;
+    } */
+}
