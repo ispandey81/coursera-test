@@ -1,5 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 h3 {
-    text-align: center;
+    /* text-align: center; */
 }
 
 .navbar-brand {
@@ -8,19 +12,25 @@ h3 {
 }
 
 section {
-    height: 50%;
+    height: 100%;
     width: 80%;
     text-align: center;
     margin: auto;
     border: 2px solid green;
+    background-color: turquoise;
+    overflow: auto;
 }
 
-body {
-    padding-top: 70px;
+#main-content {
+    /* padding-top: 70px; */
+    height: 1000px;
 }
 
-.divider {
+hr {
     color: black;
+    margin: 0;
+    border: 0.2px solid black;
+    border-top: 0;
 }
 
 #dropdown {
